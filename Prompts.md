@@ -1251,6 +1251,58 @@ FORMAT
 One line per skill: where you put it, and what it needs.
 ```
 
+### 8. Putting the project online
+
+- When the app is ready, you can keep its versions on GitHub and open it from a public address. This part is optional.
+- You do not install anything yourself. One prompt asks the AI to check what is on your computer, install what is missing, and do the steps in order.
+- Two things only you can do: say "yes" when it asks to install something, and sign in to your own GitHub account when it opens the sign-in page. The AI must never ask you for your password.
+
+```text
+ROLE
+You are a developer who sets up version saving and publishing for a web
+app, and who explains each step in simple words.
+
+ABOUT THE PRODUCT AND ITS USERS
+The project in this folder is the QuickBook web app. I am a product
+designer, not a developer. I want the app saved on my own GitHub
+account and opened from a public web address.
+
+EVIDENCE WE HAVE AND WHAT WE DO NOT KNOW
+The app runs on my computer. We do not know whether Git, the GitHub
+command line tool (gh) or Node are installed here, and we do not know
+whether I am signed in to GitHub.
+
+WHAT I WANT YOU TO DO AND WHY
+Do these steps in order, so the app is saved and published without me
+typing commands:
+1. Check whether Git, gh and Node are installed. For each one that is
+   missing, tell me what it is in one sentence, ask my permission, then
+   install it.
+2. Start Git in this folder, add a .gitignore for a Vite and React
+   project, and make the first commit.
+3. Help me sign in to GitHub. Tell me what I will see and what to click.
+4. Create a new repository on my account, named quickbook-prototype, and
+   push the project to it.
+5. Publish the app with GitHub Pages, and give me the public address.
+   Change the project settings the app needs to work at that address.
+
+RULES AND WHY
+- Ask me before every install and every push, because they change my
+  computer and my account.
+- Never ask me for a password or a token in this chat, because the
+  sign-in happens in the browser.
+- Do not include files with secrets or keys in the commit, because the
+  repository will be public.
+- Stop at the first step that fails, show me the full error, and wait,
+  because a later step cannot work after a failed one.
+
+FORMAT
+After each step: one line saying what you did. At the end: the
+repository address and the public web address of the app.
+```
+
+- **Later changes:** after you change the app, send "Save this change and publish it again." The AI makes a commit, pushes it, and the public address shows the new version.
+
 ## Templates and skill files
 
 ### Project instructions template
