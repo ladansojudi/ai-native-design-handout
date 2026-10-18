@@ -6,6 +6,7 @@ Teaching material for product designers who want to use AI professionally across
 
 - **Full Course Handout.pdf**: the handouts of Sessions 1 to 5, with the skill files and templates in the appendix.
 - **Prompts.md**: only the prompts, with their names, in the order used in class, so you can copy them.
+- **Notion page**: the same prompts online, with a copy button on each block: [QuickBook Course — Prompts to Copy](https://cream-omelet-bb2.notion.site/QuickBook-Course-Prompts-to-Copy-3fd97dcd603881fea2e9ef53e2314c22)
 
 ## Sessions
 
