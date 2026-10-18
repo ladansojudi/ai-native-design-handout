@@ -17,6 +17,6 @@ Teaching material for product designers who want to use AI professionally across
 
 ## License
 
-© 2026 Ladan Sojudi — Juststack.
+© 2026 Ladan Sojudi.
 
 This work is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/). You may share it unchanged, with credit, for non-commercial use.

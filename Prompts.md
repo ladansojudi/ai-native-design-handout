@@ -1469,4 +1469,4 @@ then one line: what changed.
 
 ---
 
-© 2026 Ladan Sojudi — Juststack. Licensed under CC BY-NC-ND 4.0.
+© 2026 Ladan Sojudi. Licensed under CC BY-NC-ND 4.0.
